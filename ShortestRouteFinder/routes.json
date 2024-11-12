@@ -1,0 +1,77 @@
+[
+  {
+    "Start": "Uppsala",
+    "Destination": "Stockholm",
+    "Distance": 70
+  },
+  {
+    "Start": "Uppsala",
+    "Destination": "Västerås",
+    "Distance": 79
+  },
+  {
+    "Start": "Stockholm",
+    "Destination": "Örebro",
+    "Distance": 201
+  },
+  {
+    "Start": "Västerås",
+    "Destination": "Örebro",
+    "Distance": 95
+  },
+  {
+    "Start": "Örebro",
+    "Destination": "Linköping",
+    "Distance": 119
+  },
+  {
+    "Start": "Linköping",
+    "Destination": "Norrköping",
+    "Distance": 43
+  },
+  {
+    "Start": "Norrköping",
+    "Destination": "Sundsval",
+    "Distance": 536
+  },
+  {
+    "Start": "Sundsvall",
+    "Destination": "Gävle",
+    "Distance": 211
+  },
+  {
+    "Start": "Gävle",
+    "Destination": "Malmö",
+    "Distance": 738
+  },
+  {
+    "Start": "Malmö",
+    "Destination": "Jönköping",
+    "Distance": 292
+  },
+  {
+    "Start": "Jönköping",
+    "Destination": "Göteborg",
+    "Distance": 147
+  },
+  {
+    "Start": "Göteborg",
+    "Destination": "Kalmar",
+    "Distance": 340
+  },
+  {
+    "Start": "Kalmar",
+    "Destination": "Mora",
+    "Distance": 580
+  },
+  {
+    "Start": "Mora",
+    "Destination": "Umeå",
+    "Distance": 582
+  },
+  {
+    "Start": "Umeå",
+    "Destination": "Östersund",
+    "Distance": 363
+  }
+]
