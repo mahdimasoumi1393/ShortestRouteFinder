@@ -28,4 +28,33 @@ Utvärdering: Utöka input data och visa beräkningstiden för varje vald algori
 - **View**: 
 
   WPF-gränssnittet som visar rutter i en lista och låter användaren välja en sorteringsmetod.
-  
+
+
+## Uppgift 3
+15:41 2024-11-15
+Godkänd. Klarat sorterings algoritmen.
+
+## Anmärkningar
+
+1. Följer inte MVVM
+	View är enbart för användargränsnnitet. Ingen logik under View
+
+	private void SortButton_Click(object sender, RoutedEventArgs e)
+	{
+		// Setting algorithm based on ComboBox
+		viewModel.SelectedAlgorithm = ((ComboBoxItem)AlgorithmSelector.SelectedItem).Content.ToString();
+		viewModel.SortRoutes();
+		RoutesList.ItemsSource = viewModel.Routes;  // Refresh the ListView
+	}
+
+	Detta kan utföras utanför view.
+
+2. Bra med felhantering under laddning av filen.
+
+3. Saknar felhantering när man väljer "Sort Routes" utan att först ha valt sorterings algoritm.
+   alternativ, knappen kan inaktiveras när ingen algoritm har valts i ComboBox:en.
+   
+4. Hårdkodad sökväg till routes.json filen.
+   Gör det konfigurerbar. Förslag finns under tidigare labbar.
+
+
